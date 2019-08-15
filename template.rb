@@ -16,7 +16,8 @@ if __FILE__ == $0
     input = testcase[0]
     expect = testcase[1]
 
-    puts "input #{input} | expect #{expect}"
+    puts "input  #{input}"
+    puts "expect #{expect}"
     result = main(input)
 
     if (result == expect) ; puts "OK"
